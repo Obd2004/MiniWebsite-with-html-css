@@ -1,0 +1,260 @@
+.migratsiya{
+    .mig-h1{
+        margin-top: 100px;
+        margin-left: 179px;
+        margin-bottom: 50px;
+    }
+    .mig_contact{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 135px;
+        background: #F8F8F8;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+        border-radius: 15px;
+        .migratsiya__text{
+            h2{
+                font-family: 'Segoe UI';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 26px;
+                line-height: 30px;
+                color: #0073C5;
+            }
+            p{
+                font-family: 'Segoe UI';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 26px;
+                color: #000000;
+                padding-top: 12px;
+            }
+        } 
+    }
+    .mig__cards{
+        display: flex;
+        justify-content: space-between;
+        padding: 100px 135px;
+        .mig__left{
+            h1{
+                font-family: 'Segoe UI';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 34px;
+                line-height: 40px;
+                color: #000000;
+                text-align: start;
+                margin-bottom: 45px;
+            }
+            a{
+                font-family: 'Segoe UI';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 26px;
+                line-height: 30px;
+                color: #0073C5;
+                text-decoration: none;
+            }
+            p{
+                font-family: 'Segoe UI';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 26px;
+                color: #000000;
+                margin-top: 15px;
+            }
+            &-card1{
+                @include winCard;
+                margin-top: 34px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                p{
+                    font-family: 'Segoe UI';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 19px;
+                    line-height: 26px;
+                    color: #F8F8F8;
+                    margin-bottom: 10px
+                }
+            }
+            &-card2{
+                @include winCard;
+                margin-top: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                p{
+                    font-family: 'Segoe UI';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 19px;
+                    line-height: 26px;
+                    color: #F8F8F8;
+                    margin-bottom: 10px
+                }
+            }
+            &-card3 {
+                @include winCard;
+                margin-top: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                p{
+                    font-family: 'Segoe UI';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 19px;
+                    line-height: 26px;
+                    color: #F8F8F8;
+                    margin-bottom: 10px
+                }
+            }
+        }
+        .mig__right{
+            &-card{
+                height: 219px;
+                background-color: #FAFAFA;
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px;
+                box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+                h3{
+                    font-family: 'Segoe UI';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 26px;
+                    color: #000000;
+                    padding-left: 23px;
+                    margin-bottom: 134px;
+                }
+                a{
+                    font-family: 'Segoe UI';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 19px;
+                    line-height: 20px;
+                    color: #0073C5;
+                    text-decoration: none;
+                    padding-left: 23px;
+                }
+            }
+        }
+    }  
+    .mig__card2{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 135px;
+        .mig__right-card{
+            height: 219px;
+            background-color: #FAFAFA;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+            h3{
+                font-family: 'Segoe UI';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 26px;
+                color: #000000;
+                padding-left: 23px;
+                margin-bottom: 134px;
+            }
+            a{
+                font-family: 'Segoe UI';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 19px;
+                line-height: 20px;
+                color: #0073C5;
+                text-decoration: none;
+                padding-left: 23px;
+                
+            }
+        }
+        .mig__card2-right{
+            padding-left: 30px;
+            a{
+                font-family: 'Segoe UI';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 26px;
+                line-height: 30px;
+                color: #0073C5;
+                text-decoration: none;
+
+            }
+            .mig__card2-right-card1{
+                @include winCard;
+                margin-top: 40px;
+                p{
+                    font-family: 'Segoe UI';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 19px;
+                    line-height: 23px;
+                    color: #F8F8F8;
+                    padding: 14px 16px;
+                }
+            }
+            .mig__card2-right-card2{
+                @include winCard;
+                margin-top: 12px; 
+                p{
+                    font-family: 'Segoe UI';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 19px;
+                    line-height: 23px;
+                    color: #F8F8F8;
+                    padding: 14px 16px;
+                }
+            }
+            .mig__card2-right-card3{
+                @include winCard;
+                margin-top: 12px; 
+                p{
+                    font-family: 'Segoe UI';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 19px;
+                    line-height: 23px;
+                    color: #F8F8F8;
+                    padding: 14px 16px;
+
+                }
+            }
+            .mig__card2-right-card4{
+                @include winCard;
+                margin-top: 12px;
+                p{
+                    font-family: 'Segoe UI';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 19px;
+                    line-height: 23px;
+                    color: #F8F8F8;
+                    padding: 14px 16px;
+                } 
+            }
+            .mig__card2-right-card5{
+                @include winCard;
+                margin-top: 12px;
+                p{
+                    font-family: 'Segoe UI';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 19px;
+                    line-height: 23px;
+                    color: #F8F8F8;
+                    padding: 14px 16px;
+                } 
+            }
+        }
+
+    }
+}

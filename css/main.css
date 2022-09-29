@@ -1,0 +1,750 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+nav {
+  background: url(../../images/mont_logo_white\ 1.svg), url(../../images/image\ 47.svg), #0A377B;
+  background-repeat: no-repeat;
+  background-position: top left 130px, right center;
+  height: 100vh;
+  position: relative;
+}
+nav h1 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 90px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 282px;
+  left: 278px;
+}
+nav p {
+  position: absolute;
+  top: 460px;
+  left: 278px;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-top: 30px;
+}
+nav .nav__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 382px;
+  right: 179px;
+}
+nav .nav__icons .bi-instagram {
+  color: #F8F8F8;
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .nav__icons .bi-facebook {
+  color: #F8F8F8;
+  width: 84px;
+  height: 84px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .nav__icons .bi-envelope {
+  color: #F8F8F8;
+  width: 84px;
+  height: 84px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  margin-top: 100px;
+  position: relative;
+}
+.contact__title {
+  margin-left: 106px;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 40px;
+  color: #000000;
+}
+.contact__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  width: 1440px;
+  margin-top: 20px;
+  padding: 55px;
+}
+.contact__cards .contac__card1 {
+  width: 270px;
+  height: 110px;
+  color: #FAFAFA;
+  border-radius: 15px;
+  background: #F8F8F8;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  border: none;
+  position: relative;
+}
+.contact__cards .contac__card1 h1 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+  color: #0073C5;
+  padding: 10px;
+}
+.contact__cards .contac__card1 p {
+  color: #000000;
+  padding: 10px;
+}
+.contact__cards .contac__card1 img {
+  position: absolute;
+  bottom: 69px;
+  right: 15px;
+}
+.contact__cards .contac__card2 {
+  width: 270px;
+  height: 110px;
+  color: #FAFAFA;
+  border-radius: 15px;
+  background: #F8F8F8;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  border: none;
+  position: relative;
+}
+.contact__cards .contac__card2 a {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+  color: #0073C5;
+  padding: 15px;
+  text-decoration: none;
+}
+.contact__cards .contac__card2 p {
+  color: #000000;
+  margin-top: 25px;
+  margin-left: 15px;
+}
+.contact__cards .contac__card2 img {
+  position: absolute;
+  bottom: 69px;
+  right: 15px;
+}
+.contact__cards .contac__card3 {
+  position: relative;
+  width: 270px;
+  height: 110px;
+  color: #FAFAFA;
+  border-radius: 15px;
+  background: #F8F8F8;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  border: none;
+}
+.contact__cards .contac__card3 a {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+  color: #0073C5;
+  padding: 15px;
+  text-decoration: none;
+}
+.contact__cards .contac__card3 p {
+  color: #000000;
+  margin-top: 25px;
+  margin-left: 15px;
+}
+.contact__cards .contac__card3 img {
+  position: absolute;
+  bottom: 69px;
+  right: 15px;
+}
+.contact__cards .contac__card4 {
+  position: relative;
+  width: 270px;
+  height: 110px;
+  color: #FAFAFA;
+  border-radius: 15px;
+  background: #F8F8F8;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  border: none;
+}
+.contact__cards .contac__card4 a {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+  color: #0073C5;
+  padding: 15px;
+  text-decoration: none;
+}
+.contact__cards .contac__card4 p {
+  color: #000000;
+  margin-top: 25px;
+  margin-left: 15px;
+}
+.contact__cards .contac__card4 img {
+  position: absolute;
+  bottom: 69px;
+  right: 15px;
+}
+.contact .contact__middle {
+  display: flex;
+}
+.contact .contact__middle .items {
+  margin-left: 37px;
+  list-style-type: none;
+}
+.contact .contact__middle .items li {
+  margin-left: 87px;
+  display: flex;
+  margin-top: 22px;
+  padding-top: 20px;
+}
+.contact .contact__middle .items li div {
+  margin-left: 16px;
+}
+.contact .contact__middle .items li div h1 {
+  color: #0A377B;
+}
+.contact .contact__middle .items li div p {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.contact .contact__middle .items__img {
+  list-style-type: none;
+  margin-left: 30px;
+}
+.contact .contact__middle .items__img img {
+  border-radius: 16px;
+}
+.contact .ekran {
+  margin-top: 97px;
+}
+
+.info h1 {
+  text-align: start;
+  margin-left: 173px;
+  margin-top: 100px;
+}
+.info__cards-card1 {
+  width: 970px;
+  height: 274px;
+  background: #F8F8F8;
+  border-radius: 15px;
+  border: none;
+  margin: 0 auto;
+  border-bottom: 10px solid #0073C5;
+  margin-top: 50px;
+}
+.info__cards-card1 img {
+  margin-left: 25px;
+  display: inline-flex;
+  margin-top: 0px;
+  margin-top: 16px;
+}
+.info__cards-card1 h2 {
+  display: inline-flex;
+  margin-left: 10px;
+  margin-bottom: 21px;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  color: #0073C5;
+}
+.info__cards-card1 p {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  padding: 0px 34px;
+}
+.info__cards-card2 {
+  width: 970px;
+  height: 274px;
+  background: #F8F8F8;
+  border-radius: 15px;
+  border: none;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-bottom: 10px solid #0073C5;
+}
+.info__cards-card2 img {
+  margin-left: 25px;
+  display: inline-flex;
+  margin-top: 0px;
+  margin-top: 16px;
+}
+.info__cards-card2 h2 {
+  display: inline-flex;
+  margin-left: 10px;
+  margin-bottom: 21px;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  color: #0073C5;
+}
+.info__cards-card2 p {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  padding: 0px 44px;
+}
+
+.windows h1 {
+  margin-left: 179px;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 40px;
+  color: #000000;
+  margin-top: 100px;
+  margin-bottom: 63px;
+}
+.windows__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 135px;
+}
+.windows__cards .windows__card1 {
+  width: 270px;
+  height: 110px;
+  color: #FAFAFA;
+  border-radius: 15px;
+  background: #F8F8F8;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  border: none;
+}
+.windows__cards .windows__card1 h2 {
+  color: #0073C5;
+  border: 2px solid #0073C5;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 50px;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  margin-left: 190px;
+  margin-top: -20px;
+}
+.windows__cards .windows__card1 p {
+  color: #000000;
+  padding: 10px;
+}
+.windows__cards .windows__card2 {
+  width: 270px;
+  height: 110px;
+  color: #FAFAFA;
+  border-radius: 15px;
+  background: #F8F8F8;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  border: none;
+}
+.windows__cards .windows__card2 h2 {
+  color: #0073C5;
+  border: 2px solid #0073C5;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 50px;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  margin-left: 190px;
+  margin-top: -20px;
+}
+.windows__cards .windows__card2 p {
+  color: #000000;
+  padding: 10px;
+}
+.windows__cards .windows__card3 {
+  width: 270px;
+  height: 110px;
+  color: #FAFAFA;
+  border-radius: 15px;
+  background: #F8F8F8;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  border: none;
+}
+.windows__cards .windows__card3 h2 {
+  color: #0073C5;
+  border: 2px solid #0073C5;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 50px;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  margin-left: 190px;
+  margin-top: -20px;
+}
+.windows__cards .windows__card3 p {
+  color: #000000;
+  padding: 10px;
+}
+.windows__cards .windows__card4 {
+  width: 270px;
+  height: 110px;
+  color: #FAFAFA;
+  border-radius: 15px;
+  background: #F8F8F8;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  border: none;
+}
+.windows__cards .windows__card4 h2 {
+  color: #0073C5;
+  border: 2px solid #0073C5;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 50px;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  margin-left: 190px;
+  margin-top: -20px;
+}
+.windows__cards .windows__card4 p {
+  color: #000000;
+  padding: 10px;
+}
+
+.migratsiya .mig-h1 {
+  margin-top: 100px;
+  margin-left: 179px;
+  margin-bottom: 50px;
+}
+.migratsiya .mig_contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 135px;
+  background: #F8F8F8;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+}
+.migratsiya .mig_contact .migratsiya__text h2 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 30px;
+  color: #0073C5;
+}
+.migratsiya .mig_contact .migratsiya__text p {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  padding-top: 12px;
+}
+.migratsiya .mig__cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 135px;
+}
+.migratsiya .mig__cards .mig__left h1 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 40px;
+  color: #000000;
+  text-align: start;
+  margin-bottom: 45px;
+}
+.migratsiya .mig__cards .mig__left a {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 30px;
+  color: #0073C5;
+  text-decoration: none;
+}
+.migratsiya .mig__cards .mig__left p {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  margin-top: 15px;
+}
+.migratsiya .mig__cards .mig__left-card1 {
+  background: #0A377B;
+  border-radius: 15px;
+  width: 570px;
+  height: 79px;
+  border: none;
+  margin-top: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.migratsiya .mig__cards .mig__left-card1 p {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 26px;
+  color: #F8F8F8;
+  margin-bottom: 10px;
+}
+.migratsiya .mig__cards .mig__left-card2 {
+  background: #0A377B;
+  border-radius: 15px;
+  width: 570px;
+  height: 79px;
+  border: none;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.migratsiya .mig__cards .mig__left-card2 p {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 26px;
+  color: #F8F8F8;
+  margin-bottom: 10px;
+}
+.migratsiya .mig__cards .mig__left-card3 {
+  background: #0A377B;
+  border-radius: 15px;
+  width: 570px;
+  height: 79px;
+  border: none;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.migratsiya .mig__cards .mig__left-card3 p {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 26px;
+  color: #F8F8F8;
+  margin-bottom: 10px;
+}
+.migratsiya .mig__cards .mig__right-card {
+  height: 219px;
+  background-color: #FAFAFA;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+.migratsiya .mig__cards .mig__right-card h3 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  padding-left: 23px;
+  margin-bottom: 134px;
+}
+.migratsiya .mig__cards .mig__right-card a {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 20px;
+  color: #0073C5;
+  text-decoration: none;
+  padding-left: 23px;
+}
+.migratsiya .mig__card2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 135px;
+}
+.migratsiya .mig__card2 .mig__right-card {
+  height: 219px;
+  background-color: #FAFAFA;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+.migratsiya .mig__card2 .mig__right-card h3 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  padding-left: 23px;
+  margin-bottom: 134px;
+}
+.migratsiya .mig__card2 .mig__right-card a {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 20px;
+  color: #0073C5;
+  text-decoration: none;
+  padding-left: 23px;
+}
+.migratsiya .mig__card2 .mig__card2-right {
+  padding-left: 30px;
+}
+.migratsiya .mig__card2 .mig__card2-right a {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 30px;
+  color: #0073C5;
+  text-decoration: none;
+}
+.migratsiya .mig__card2 .mig__card2-right .mig__card2-right-card1 {
+  background: #0A377B;
+  border-radius: 15px;
+  width: 570px;
+  height: 79px;
+  border: none;
+  margin-top: 40px;
+}
+.migratsiya .mig__card2 .mig__card2-right .mig__card2-right-card1 p {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  color: #F8F8F8;
+  padding: 14px 16px;
+}
+.migratsiya .mig__card2 .mig__card2-right .mig__card2-right-card2 {
+  background: #0A377B;
+  border-radius: 15px;
+  width: 570px;
+  height: 79px;
+  border: none;
+  margin-top: 12px;
+}
+.migratsiya .mig__card2 .mig__card2-right .mig__card2-right-card2 p {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  color: #F8F8F8;
+  padding: 14px 16px;
+}
+.migratsiya .mig__card2 .mig__card2-right .mig__card2-right-card3 {
+  background: #0A377B;
+  border-radius: 15px;
+  width: 570px;
+  height: 79px;
+  border: none;
+  margin-top: 12px;
+}
+.migratsiya .mig__card2 .mig__card2-right .mig__card2-right-card3 p {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  color: #F8F8F8;
+  padding: 14px 16px;
+}
+.migratsiya .mig__card2 .mig__card2-right .mig__card2-right-card4 {
+  background: #0A377B;
+  border-radius: 15px;
+  width: 570px;
+  height: 79px;
+  border: none;
+  margin-top: 12px;
+}
+.migratsiya .mig__card2 .mig__card2-right .mig__card2-right-card4 p {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  color: #F8F8F8;
+  padding: 14px 16px;
+}
+.migratsiya .mig__card2 .mig__card2-right .mig__card2-right-card5 {
+  background: #0A377B;
+  border-radius: 15px;
+  width: 570px;
+  height: 79px;
+  border: none;
+  margin-top: 12px;
+}
+.migratsiya .mig__card2 .mig__card2-right .mig__card2-right-card5 p {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  color: #F8F8F8;
+  padding: 14px 16px;
+}/*# sourceMappingURL=main.css.map */

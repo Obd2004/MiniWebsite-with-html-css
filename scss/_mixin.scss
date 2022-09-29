@@ -1,0 +1,32 @@
+@mixin cards{
+    width: 270px;
+    height: 110px;
+    color: #FAFAFA;
+    border-radius: 15px;
+    background: #F8F8F8;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    border: none;   
+    
+}
+@mixin big_cards{
+    width: 970px;
+    height: 274px;
+    background: #F8F8F8;
+    border-radius: 15px;
+    border: none;
+}
+@mixin winCard {
+    background: #0A377B;
+    border-radius: 15px;
+    width: 570px;
+    height: 79px;
+    border: none;
+}
+@mixin variatnsCard{
+    width: 570px;
+    height: 193px;
+    background: #F8F8F8;
+    border-radius: 15px;
+    border: none;
+}

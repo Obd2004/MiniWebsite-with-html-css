@@ -1,0 +1,154 @@
+.contact{
+    margin-top: 100px;
+    position: relative;
+    &__title{
+        margin-left: 106px;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 40px;  
+        color: #000000;
+
+    }
+    &__cards{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 150px;
+        width: 1440px;
+        margin-top: 20px;
+        padding: 55px;
+        .contac__card1{
+            @include cards;
+            position: relative;
+            h1{
+                font-family: 'Segoe UI';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 24px;
+                color: #0073C5;
+                padding: 10px;
+            }
+            p{
+                color: #000000;
+                padding: 10px;
+            }
+            img{
+                position: absolute;
+                bottom: 69px;
+                right: 15px;
+            }
+        }
+        .contac__card2{
+            @include cards; 
+            position: relative;
+            a{
+                font-family: 'Segoe UI';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 24px;
+                color: #0073C5;
+                padding: 15px;
+                text-decoration: none;
+            }
+            p{
+                color: #000000;
+                margin-top: 25px;
+                margin-left: 15px;
+            }
+            img{
+                position: absolute;
+                bottom: 69px;
+                right: 15px;
+            }
+        }
+        .contac__card3{
+            position: relative;
+            @include cards;
+            a{
+                font-family: 'Segoe UI';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 24px;
+                color: #0073C5;
+                padding: 15px;
+                text-decoration: none;
+            }
+            p{
+                color: #000000;
+                margin-top: 25px;
+                margin-left: 15px;
+            }
+            img{
+                position: absolute;
+                bottom: 69px;
+                right: 15px;
+            }
+        }
+        .contac__card4{
+            position: relative;
+            @include cards;
+            a{
+                font-family: 'Segoe UI';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 24px;
+                color: #0073C5;
+                padding: 15px;
+                text-decoration: none;
+            }
+            p{
+                color: #000000;
+                margin-top: 25px;
+                margin-left: 15px;
+            }
+            img{
+                position: absolute;
+                bottom: 69px;
+                right: 15px;
+            }
+        }
+    }
+    .contact__middle{
+        display: flex;
+        .items{
+            margin-left: 37px;
+            list-style-type: none;
+            li{
+                margin-left: 87px;
+                display: flex;
+                margin-top: 22px;
+                padding-top: 20px;
+                div{
+                    margin-left: 16px;
+                    h1{
+                        color: #0A377B;
+                    }
+                    p{
+                        font-family: 'Segoe UI';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #000000;
+                    }
+                }
+            }
+        }
+        .items__img{
+            list-style-type: none;
+            margin-left: 30px;
+            img{
+                border-radius: 16px;
+            }
+        }
+    }
+    .ekran{
+        margin-top: 97px;
+    }
+}

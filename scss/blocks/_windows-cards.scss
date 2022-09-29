@@ -1,0 +1,110 @@
+.windows{
+    h1{
+        margin-left: 179px;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 40px;
+        color: #000000;
+        margin-top: 100px;
+        margin-bottom: 63px;
+
+    }
+    &__cards{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 60px 135px;
+        .windows__card1{
+            @include cards;
+            h2{
+                color: #0073C5;
+                border: 2px solid #0073C5;
+                font-family: 'Segoe UI';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 46px;
+                line-height: 50px;
+                border-radius: 50%;
+                width: 64px;
+                height: 64px;
+                text-align: center;
+                margin-left: 190px;
+                margin-top: -20px;
+            }
+            p{
+                color: #000000;
+                padding: 10px
+            }
+        }
+        .windows__card2{
+            @include cards;
+            h2{
+                color: #0073C5;
+                border: 2px solid #0073C5;
+                font-family: 'Segoe UI';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 46px;
+                line-height: 50px;
+                border-radius: 50%;
+                width: 64px;
+                height: 64px;
+                text-align: center;
+                margin-left: 190px;
+                margin-top: -20px;
+            }
+            p{
+                color: #000000;
+                padding: 10px
+            }
+            
+        }
+        .windows__card3{
+            @include cards;
+            h2{
+                color: #0073C5;
+                border: 2px solid #0073C5;
+                font-family: 'Segoe UI';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 46px;
+                line-height: 50px;
+                border-radius: 50%;
+                width: 64px;
+                height: 64px;
+                text-align: center;
+                margin-left: 190px;
+                margin-top: -20px;
+            }
+            p{
+                color: #000000;
+                padding: 10px
+            }
+
+        }
+        .windows__card4{
+            @include cards;
+            h2{
+                color: #0073C5;
+                border: 2px solid #0073C5;
+                font-family: 'Segoe UI';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 46px;
+                line-height: 50px;
+                border-radius: 50%;
+                width: 64px;
+                height: 64px;
+                text-align: center;
+                margin-left: 190px;
+                margin-top: -20px;
+            }
+            p{
+                color: #000000;
+                padding: 10px
+            }
+        }
+    }
+}

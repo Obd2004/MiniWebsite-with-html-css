@@ -1,0 +1,66 @@
+nav{
+    background: url(../../images/mont_logo_white\ 1.svg) , url(../../images/image\ 47.svg),#0A377B;
+    background-repeat: no-repeat;
+    background-position: top left 130px , right center;
+    height: 100vh;
+    position: relative;
+    h1{
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 90px;
+        color: #FFFFFF;
+        position: absolute;
+        top: 282px;
+        left: 278px;
+    }
+    p{
+        position: absolute;
+        top: 460px;
+        left: 278px;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 32px;
+        color: #FFFFFF;
+        margin-top: 30px;
+    }
+    .nav__icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 382px;
+        right: 179px;
+        .bi-instagram{
+            color   : #F8F8F8;
+            width: 84px;
+            height: 84px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .bi-facebook{
+            color   : #F8F8F8;
+            width: 84px;
+            height: 84px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .bi-envelope{
+            color   : #F8F8F8;
+            width: 84px;
+            height: 84px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
